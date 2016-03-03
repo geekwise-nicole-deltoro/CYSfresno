@@ -108,7 +108,6 @@ li{
 }
 .quote{
     padding:0 ;
-    margin-bottom: 3px;
     font-size: 26px;
     font-family: serif;
     letter-spacing: .1rem;
@@ -130,7 +129,8 @@ li{
 
 }
 .comp_section{
-    font-size: 18px;
+    margin-top: -10px;
+    font-size: 15px;
     padding: 2rem;
 }
 
@@ -149,7 +149,7 @@ li{
     width: 100%;
     font-size: 18px;
     background: transparent;
-
+    margin: 3rem;
 }
 .links{
     width: 100%;
