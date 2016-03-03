@@ -166,3 +166,154 @@ li{
 .link_about:hover{
     text-decoration: underline;
 }
+
+#section_two{
+    box-sizing: border-box;
+    margin:0 auto;
+    margin-top: 4rem;
+    padding:0;
+    width:80%;
+    height:550px;
+    font-size:14px;
+    text-align: left;
+    background-color: #fff;
+    font-family: sans-serif;
+    letter-spacing: .1rem; 
+    border-radius: 2rem;
+   box-shadow: -.2rem .2rem lightgrey;
+    
+}
+
+#row_two_column_one{
+    box-sizing: border-box;
+    margin:0;
+    padding-left:30px;
+    padding-right:10px;
+    float:left;
+    width:calc(100%/3);
+    height: 100%;
+    
+}
+.sec_two_col_one{
+    padding: .5rem;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.header_section_two{
+        letter-spacing: 1px;
+        color: black;
+        text-decoration: none;
+}
+.header_section_two:hover{
+        color:#5397b4;
+}
+.content_sec_two{
+    text-decoration: none;
+    color:#5397b4;
+}
+.content_sec_two:hover{
+    text-decoration: underline;
+}
+h3{
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+#row_two_column_two{
+    box-sizing: border-box;
+    margin:0;
+    float: left;
+    letter-spacing: 1.5px;
+    width:calc(100%/3);
+    height: 100%;
+    font-size: 15px;
+    
+}
+
+#row_two_column_three{
+    box-sizing: border-box;
+    margin:0 auto;
+    letter-spacing: 1px;
+    float: right;
+    width:calc(100%/3);
+    height: 100%; 
+    font-size: 14px;
+}
+
+#boldface_one{
+    font-weight: 800;
+}
+
+#boldface_two{
+    font-weight: 800;
+}
+
+footer{
+    width: 80%;
+    height: 50px;
+    font-size: 12px;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    top: 10px;
+    box-sizing: border-box;
+    border: solid .5px light grey;
+    
+}
+
+.footer_text_two{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+    
+}
+
+#footer_left{
+    margin: 0;
+    padding: 2rem;
+    width: calc(90%/2);
+    float: left;
+
+}
+
+#footer_right{
+    margin: -5rem;
+    padding: 1rem;
+    width: calc(90%/2);
+    float: right;
+    display: inline;
+    color: grey;
+    text-align: right;
+
+}
+#return_top{
+    margin: -5rem;
+    color:grey;
+    text-decoration: none;
+    float: left;
+    
+}
+#return_top:hover{
+    color:#5397b4;
+}
+
+
+@media only screen and (max-width:110rem){
+    body{
+        
+        
+    }
+    header{
+       
+        
+    }
+    #image{
+       
+        
+    }
+}
+
+
+    
+
