@@ -102,7 +102,7 @@ li{
 -------------------------------------------------------------- */
  
 .wrap{
-    max-width: 1140px;
+    max-width: 1320px;
     margin: 0 auto;
     padding: 1em;
     text-align: center;
@@ -134,13 +134,13 @@ li{
 
  
 #primary{
-    max-width: 720px;
+    max-width: 600px;
     margin: 0 auto;
 }
  
 #secondary{
     height: 900px;
-    max-width: 600px;
+    max-width: 720px;
     margin: 0 auto;
     padding: 1em;
     font-size: 16px;
