@@ -1,47 +1,123 @@
 html {
   box-sizing: border-box;
+
+
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-body { margin: 0 auto; }
+@media only screen and (max-width:110rem){
+    body{
+        
+        
+    }
+    header{
+       
+        
+    }
+    #image{
+       
+        
+    }
+}
 
-footer, header { position: relative; clear: both; }
 
-.left-column, .right-column, footer, header {  border: 1px solid  #ccc; padding: 1.25em; margin: .5em; }
+body {
+    margin: 0 auto;
+    padding: 0;
+    color: #333;
+    font-size: 15px;
+    line-height: 1.5625;
+    display: block;
+    background-color: #728BA8;
+    box-sizing: border-box;
+    width: 80%;
+    height: 70%;
+    font-size: 6.25;
+    font-family: sans-serif;
+}
+
+footer, header { 
+    position: relative; 
+    clear: both; 
+}
+
+.left-column, .right-column, footer {  
+    border: 5px solid  #ccc; 
+    padding: 1.25em; 
+    margin: .5em; 
+    background-color: #fff;
+}
+
+.logo{
+    margin-top: 55px;
+    margin-left: 85px;
+    background-color: #728BA8;
+    height: 153px;
+}
+
+
+
+
+.header{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    background-color: #fff;
+
+}
+
+   
 
 .nav {
-  list-style: none;
-  margin-left: 0;
-  margin-bottom: 0;
-  padding-left: 0;
+margin: 0;
+padding-bottom: 15rem; 
+background-color: #728BA8;
+margin-left: 0;
+margin-bottom: 0;
+padding-left: 25rem;
+   
 }
+
+.nav a {
+    color: #fff; /* put any custom hex color you like */
+}
+
+.nav a:hover {
+    color: #fff; /* your custom hex color here */
+}
+
+
 
 .nav > li,
 .nav > li > a {
   display: inline-block;
-  *display: inline;
-  zoom: 1;
+  display: inline;
+
 }
 
 .inline-items {
-  margin-top: 0;
+  margin-top: 0 auto;
+
+
+    
 }
 
 .inline-items li {
-  margin-left: 0;
-  border-left: 1px solid black;
+  margin: 0;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .inline-items li:first-child {
   margin-left: 0;
-  border: none;
   padding-left: 0;
   padding-right: 10px;
+  
+
 }
+
 
 .inline-items li:last-child {
   padding-right: 0;
@@ -66,3 +142,12 @@ footer, header { position: relative; clear: both; }
 		float: left;
   }   
 }
+
+
+
+
+
+
+
+
+
