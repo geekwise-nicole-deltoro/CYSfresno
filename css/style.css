@@ -4,6 +4,21 @@ html,body{
     font-size: 62.5%;
 }
 
+@media only screen and (max-width:110rem){
+    body{
+        
+        
+    }
+    header{
+       
+        
+    }
+    #image{
+       
+        
+    }
+}
+
 
 body{
     margin: 0;
@@ -306,20 +321,6 @@ footer{
 }
 
 
-@media only screen and (max-width:110rem){
-    body{
-        
-        
-    }
-    header{
-       
-        
-    }
-    #image{
-       
-        
-    }
-}
 
 
     
