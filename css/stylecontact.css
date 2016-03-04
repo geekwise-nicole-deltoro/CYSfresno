@@ -1,0 +1,59 @@
+/* =Reset
+-------------------------------------------------------------- */
+ 
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+ 
+html,
+body,
+div{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* =Color
+-------------------------------------------------------------- */
+ 
+#header{
+    background: #cccccc;
+}
+ 
+#main{
+    background: #dddddd;    
+}
+ 
+#secondary {
+    border: 1px solid #bbbbbb;
+}
+
+/* =Structure
+-------------------------------------------------------------- */
+ 
+.wrap{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 1em;
+}
+ 
+.wrap:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ 
+#primary{
+    max-width: 720px;
+    margin: 0 auto;
+}
+ 
+#secondary{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1em;
+}
